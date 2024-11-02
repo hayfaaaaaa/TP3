@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+
+.head-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffeb3b; 
+    padding: 15px 20px; 
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.wishlist-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.heart {
+    margin-right: 5px;
+    font-size: 16px;
+    color: #ffeb3b; 
+}

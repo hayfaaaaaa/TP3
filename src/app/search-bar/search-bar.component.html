@@ -1,0 +1,14 @@
+<div class="body">
+  <div class="search-container">
+    <input
+      type="text"
+      [(ngModel)]="searchTerm"
+      (ngModelChange)="onSearch()"
+      placeholder="movie title"
+      class="search-input"
+    />
+    <button class="search-button">
+      <span class="search-icon">🔍</span>
+    </button>
+  </div>
+</div>
